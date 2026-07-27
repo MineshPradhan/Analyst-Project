@@ -59,13 +59,3 @@ data/        raw + cleaned CSVs, SQLite database
 scripts/     01-04, run in order
 outputs/     US_Expansion_Client_Model.xlsx, Client_Recommendation_Summary.md
 ```
-
-## Extending this project for an interview
-
-- Swap the synthetic data generator for a real free API (US Census API,
-  BLS API, or a Kaggle retail dataset) once you have network access.
-- Add a small Streamlit/Flask app so the client can adjust assumptions
-  in a browser instead of Excel.
-- Wire in an LLM call (Anthropic API) to auto-draft the executive summary
-  paragraph from the ranked_states.csv output — directly demonstrates the
-  "using LLMs and generative AI tools" JD line.
